@@ -1,0 +1,227 @@
+*{
+    border: 0;
+    margin: 0;
+    
+}
+.browndiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(215, 252, 255);
+    padding: 20px 20px 20px 20px;
+    border-bottom: 20px solid rgb(189, 219, 217);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    padding-right: 20px;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(81, 23, 77);
+}
+/* TRBL */
+
+li button{
+    background-color: rgb(15, 130, 192);
+    padding: 10px 25px 10px 25px;
+    border-radius: 25px;
+    border: none;
+}
+.Ray{
+    color: rgb(239, 37, 138);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+}
+
+
+
+* {box-sizing:border-box}
+
+#footer{
+	background-color:#F2F2F2;
+	color: #151515;
+	width:1500px;
+	clear:both;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.wrapper{
+	clear:both;
+	position: relative;
+	overflow: hidden;
+}
+
+.left {
+height:2%;
+width:2%;
+text-align:center;
+float:left;
+
+}
+
+.right{
+height:2%px;
+width:1500px;
+float:right;
+text-align:right;
+
+}
+
+.centered{
+width:100px;
+overflow: hidden;
+display: inline-block;
+text-align:center;
+}
+
+
+
+/* Slideshow container */
+
+.carousel-indicator {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mycarousel {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+    .caption{
+      font-weight:bolder;
+      font-family: serif;
+      text-decoration:#151515;
+      color: tomato;
+      font-style: italic;
+      
+    }
+    .main{
+      background-color: aquamarine;
+      font-size:x-large;
+    }
+    
+    .section{
+      background-color: bisque;
+      font-style: italic;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: larger;
+      color:darkblue;
+      font-weight: bolder;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 20px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
